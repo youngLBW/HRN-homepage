@@ -1,0 +1,114 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="language" content="english">
+<title>HRN</title>
+<meta name="description" content="A Hierarchical Representation Network for Accurate and Detailed Face Reconstruction from In-The-Wild Images">
+<meta name="author" content="Biwen Lei">
+<link rel="icon" type="image/x-icon" href="http://www.icst.pku.edu.cn/favicon.ico">
+<link rel="stylesheet" type="text/css" href="./assets/project.css">
+</head>
+
+<body>
+<div id="main">
+
+	<div class="content"><br>
+		<h1>A Hierarchical Representation Network for Accurate and Detailed Face Reconstruction from In-The-Wild Images </h1>
+		<div class="authors">
+			<div class="author">
+				 <a href="mailto:biwen1996@gmail.com" style="text-decoration: none">Biwen Lei</a>
+            </div>
+
+            <div class="author">
+				 <a href="mailto:jianqiang.rjq@alibaba-inc.com" style="text-decoration: none">Jianqiang Ren</a>
+			</div>
+
+            <div class="author">
+				 <a href="mailto:mengyang.fmy@alibaba-inc.com" style="text-decoration: none">Mengyang Feng</a>
+			</div>
+
+            <div class="author">
+				 <a href="mailto:miaomiao.cmm@alibaba-inc.com" style="text-decoration: none">Miaomiao Cui</a>
+			</div>
+
+            <div class="author">
+				 <a href="https://scholar.google.com/citations?user=M0Ei1zkAAAAJ&hl=en" style="text-decoration: none">Xuansong Xie</a>
+			</div>
+
+
+		</div>
+		<br>
+	  	<p class="banner" align="center"><em>Accepted by CVPR 2023. </em></p>
+
+
+        <div class="download sec">
+			<h2>Download</h2>
+			<div>
+				<li><strong>Paper</strong>: <a href="https://arxiv.org/abs/2302.14434">https://arxiv.org/abs/2302.14434</a></li>
+                <li><strong>Code</strong>: <a href="https://github.com/youngLBW/HRN">https://github.com/youngLBW/HRN</a></li>
+                <li><strong>Modelscope</strong>: <a href="https://www.modelscope.cn/models/damo/cv_resnet50_face-reconstruction/summary">https://www.modelscope.cn/models/damo/cv_resnet50_face-reconstruction/summary</a></li>
+			</div>
+		</div>
+
+        <br>
+
+        <div class="Abstract sec">
+            <h2>Abstract</h2>
+            <div class="desp">
+                <p style="text-align:justify">
+                    Limited by the nature of the low-dimensional representational capacity of 3DMM, most of the 3DMM-based face reconstruction (FR) methods fail to recover high-frequency facial details, such as wrinkles, dimples, etc. Some attempt to solve the problem by introducing detail maps or non-linear operations, however, the results are still not vivid. To this end, we in this paper present a novel hierarchical representation network (HRN) to achieve accurate and detailed face reconstruction from a single image. Specifically, we implement the geometry disentanglement and introduce the hierarchical representation to fulfill detailed face modeling. Meanwhile, 3D priors of facial details are incorporated to enhance the accuracy and authenticity of the reconstruction results. We also propose a de-retouching module to achieve better decoupling of the geometry and appearance. It is noteworthy that our framework can be extended to a multi-view fashion by considering detail consistency of different views. Extensive experiments on two single-view and two multi-view FR benchmarks demonstrate that our method outperforms the existing methods in both reconstruction accuracy and visual effects. Finally, we introduce a high-quality 3D face dataset FaceHD-100 to boost the research of high-fidelity face reconstruction.
+                </p>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="overview sec">
+            <h2>Core idea</h2>
+            <div class="picture_wrapper2" align="center">
+                  <img src="./assets/first_page_figure.jpg" width="100%" alt="Teaser">
+                  <p style="text-align: center">Fig.1 An illustration of the geometry disentanglement and the hierarchical representation. </p>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="network sec">
+            <h2>Networks</h2>
+            <div class="picture_wrapper" align="center">
+                  <img src="./assets/framework.jpg" width="100%" alt="Teaser">
+                  <p style="text-align: center">Fig.2 An overview of the proposed framework. </p>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="network sec">
+            <h2>Results</h2>
+            <div class="picture_wrapper" align="center">
+                <img src="./assets/00016_0_hrn_output.gif" width="60%" alt="Teaser">
+                <img src="./assets/00034_0_hrn_output.gif" width="60%" alt="Teaser">
+                <img src="./assets/00133_0_hrn_output.gif" width="60%" alt="Teaser">
+                <img src="./assets/00521_0_hrn_output.gif" width="60%" alt="Teaser">
+                <img src="./assets/00437_0_hrn_output.gif" width="60%" alt="Teaser">
+            </div>
+        </div>
+
+        <br>
+
+       <div class="citation sec">
+			<h2>Citation</h2>
+			<p class="bibtex">@inproceedings{Lei2023AHR,
+  title={A Hierarchical Representation Network for Accurate and Detailed Face Reconstruction from In-The-Wild Images},
+  author={Biwen Lei and Jianqiang Ren and Mengyang Feng and Miaomiao Cui and Xuansong Xie},
+  year={2023}
+}
+			</p>
+		</div>
+
+
+
+  </div>
+</div>
+
+
+</body></html>
